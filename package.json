@@ -1,6 +1,6 @@
 {
   "name": "lazy-utils",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Most of the used mostly everywhere utils: [extend-shallow][], [isobject][], [is-extendable][] (used in extend-shallow), [isarray][] and arrayify (using [lazy-arrayify][] package), all of them [lazy-cache][]d.",
   "repository": "tunnckoCore/lazy-utils",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
