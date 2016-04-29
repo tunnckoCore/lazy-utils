@@ -1,0 +1,90 @@
+{
+  "name": "lazy-utils",
+  "version": "0.1.2",
+  "description": "Most of the used mostly everywhere utils: [extend-shallow][], [isobject][], [is-extendable][] (used in extend-shallow), [isarray][] and arrayify (using [lazy-arrayify][] package), all of them [lazy-cache][]d.",
+  "repository": "tunnckoCore/lazy-utils",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "is-extendable": "^0.1.1",
+    "isarray": "^1.0.0",
+    "isobject": "^2.1.0",
+    "lazy-arrayify": "^1.0.2"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "pre-commit": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "arr",
+    "array",
+    "arrayify",
+    "cache",
+    "cached",
+    "check",
+    "clone",
+    "every",
+    "extend",
+    "extend-shallow",
+    "extendable",
+    "is",
+    "is-extendable",
+    "is-object",
+    "key",
+    "lazy",
+    "lazy-cache",
+    "lazy-utils",
+    "most",
+    "object",
+    "shallow",
+    "utility",
+    "utils",
+    "validate",
+    "word"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "extend-shallow",
+        "limon",
+        "limon-prev-next",
+        "postjson",
+        "isarray",
+        "isobject",
+        "is-extendable",
+        "lazy-arrayify",
+        "lazy-chalk",
+        "lazy-globby",
+        "ansi-colors"
+      ]
+    },
+    "reflinks": [
+      "extend-shallow",
+      "isobject",
+      "is-extendable",
+      "isarray",
+      "lazy-arrayify",
+      "lazy-cache",
+      "browserify",
+      "limon"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
