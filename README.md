@@ -16,7 +16,7 @@ npm i lazy-utils --save
 const lazyUtils = require('lazy-utils')
 ```
 
-### [.extend](index.js#L44)
+### [.extend](index.js#L45)
 
 > Extend object `a` with the properties of object `b`.
 See [extend-shallow][] for more.
@@ -25,24 +25,27 @@ See [extend-shallow][] for more.
 
 * `a` **{Mixed}**    
 * `b` **{Mixed}**    
+* `returns` **{Object}**  
 
-### [.isExtendable](index.js#L54)
+### [.isExtendable](index.js#L56)
 
 > See [is-extendable][] for more.
 
 **Params**
 
 * `val` **{Mixed}**    
+* `returns` **{Boolean}**  
 
-### [.isArray](index.js#L64)
+### [.isArray](index.js#L67)
 
 > See [lazy-arrayify][] or [isarray][] for more.
 
 **Params**
 
 * `val` **{Mixed}**    
+* `returns` **{Boolean}**  
 
-### [.isObject](index.js#L75)
+### [.isObject](index.js#L79)
 
 > Returns true if the value is an object and not an array or null.
 See [isobject][] for more.
@@ -50,8 +53,9 @@ See [isobject][] for more.
 **Params**
 
 * `val` **{Mixed}**    
+* `returns` **{Boolean}**  
 
-### [.arrayify](index.js#L86)
+### [.arrayify](index.js#L91)
 
 > Arrayify. Returns empty array on **falsey** values.
 See [lazy-arrayify][] for more.
@@ -59,6 +63,7 @@ See [lazy-arrayify][] for more.
 **Params**
 
 * `val` **{Mixed}**    
+* `returns` **{Array}**  
 
 ## Related
 * [ansi-colors](https://www.npmjs.com/package/ansi-colors): Collection of ansi colors and styles. | [homepage](https://github.com/doowb/ansi-colors)

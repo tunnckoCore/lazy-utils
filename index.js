@@ -38,6 +38,7 @@ require = utils // eslint-disable-line no-undef, no-native-reassign
  * @name .extend
  * @param {Mixed} `a`
  * @param {Mixed} `b`
+ * @return {Object}
  * @api public
  */
 
@@ -48,6 +49,7 @@ require('extend-shallow', 'extend')
  *
  * @name .isExtendable
  * @param {Mixed} `val`
+ * @return {Boolean}
  * @api public
  */
 
@@ -58,6 +60,7 @@ require('is-extendable')
  *
  * @name .isArray
  * @param {Mixed} `val`
+ * @return {Boolean}
  * @api public
  */
 
@@ -69,6 +72,7 @@ require('isarray', 'isArray')
  *
  * @name .isObject
  * @param {Mixed} `val`
+ * @return {Boolean}
  * @api public
  */
 
@@ -80,6 +84,7 @@ require('isobject', 'isObject')
  *
  * @name .arrayify
  * @param {Mixed} `val`
+ * @return {Array}
  * @api public
  */
 
