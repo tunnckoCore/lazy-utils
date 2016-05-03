@@ -79,6 +79,18 @@ require('isarray', 'isArray')
 require('isobject', 'isObject')
 
 /**
+ * > Returns true if the value is a buffer.
+ * See [is-buffer][] for more.
+ *
+ * @name .isBuffer
+ * @param {Mixed} `val`
+ * @return {Boolean}
+ * @api public
+ */
+
+require('is-buffer')
+
+/**
  * > Arrayify. Returns empty array on **falsey** values.
  * See [lazy-arrayify][] for more.
  *
