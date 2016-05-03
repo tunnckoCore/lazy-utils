@@ -1,6 +1,6 @@
 {
   "name": "lazy-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Most used utils, almost everywhere - [lazy-cache][]d. Including simple arrayify, [isobject][], [isarray][], [is-buffer][], [is-extendable][] and [extend-shallow][].",
   "repository": "tunnckoCore/lazy-utils",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
