@@ -1,6 +1,6 @@
 # [lazy-utils][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] [![npm downloads][downloads-img]][downloads-url] 
 
-> Most of the used mostly everywhere utils: [extend-shallow][], [isobject][], [is-extendable][] (used in extend-shallow), [isarray][] and arrayify (using [lazy-arrayify][] package), all of them [lazy-cache][]d.
+> Most used utils, almost everywhere - [lazy-cache][]d. Including simple arrayify, [isobject][], [isarray][], [is-buffer][], [is-extendable][] and [extend-shallow][].
 
 [![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
 
@@ -55,7 +55,17 @@ See [isobject][] for more.
 * `val` **{Mixed}**    
 * `returns` **{Boolean}**  
 
-### [.arrayify](index.js#L91)
+### [.isBuffer](index.js#L91)
+
+> Returns true if the value is a buffer.
+See [is-buffer][] for more.
+
+**Params**
+
+* `val` **{Mixed}**    
+* `returns` **{Boolean}**  
+
+### [.arrayify](index.js#L103)
 
 > Arrayify. Returns empty array on **falsey** values.
 See [lazy-arrayify][] for more.
@@ -74,8 +84,8 @@ See [lazy-arrayify][] for more.
 * [lazy-arrayify](https://www.npmjs.com/package/lazy-arrayify): We are lazy, also [lazy-cache][]d and [browserify][]-ready - just arrayify, falsey values… [more](https://www.npmjs.com/package/lazy-arrayify) | [homepage](https://github.com/tunnckocore/lazy-arrayify)
 * [lazy-chalk](https://www.npmjs.com/package/lazy-chalk): Lazily load chalk, since it takes so long to load. | [homepage](https://github.com/jonschlinkert/lazy-chalk)
 * [lazy-globby](https://www.npmjs.com/package/lazy-globby): Lazily require globby, since it takes so long to load (because of… [more](https://www.npmjs.com/package/lazy-globby) | [homepage](https://github.com/jonschlinkert/lazy-globby)
-* [limon](https://www.npmjs.com/package/limon): The pluggable JavaScript lexer on per character basis. | [homepage](https://github.com/limonjs/limon)
 * [limon-prev-next](https://www.npmjs.com/package/limon-prev-next): Plugin for [limon][] pluggable lexer that adds `prev` and `next` methods. | [homepage](https://github.com/limonjs/limon-prev-next)
+* [limon](https://www.npmjs.com/package/limon): The pluggable JavaScript lexer on per character basis. | [homepage](https://github.com/limonjs/limon)
 * [postjson](https://www.npmjs.com/package/postjson): Transforming JSON with plugins. | [homepage](https://github.com/postjson/postjson)
 
 ## Contributing
@@ -86,13 +96,14 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [![tunnckoCore.tk][author-www-img]][author-www-url] [![keybase tunnckoCore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
 
+[browserify]: https://github.com/substack/node-browserify
 [extend-shallow]: https://github.com/jonschlinkert/extend-shallow
-[isobject]: https://github.com/jonschlinkert/isobject
+[is-buffer]: https://github.com/feross/is-buffer
 [is-extendable]: https://github.com/jonschlinkert/is-extendable
 [isarray]: https://github.com/juliangruber/isarray
+[isobject]: https://github.com/jonschlinkert/isobject
 [lazy-arrayify]: https://github.com/tunnckocore/lazy-arrayify
 [lazy-cache]: https://github.com/jonschlinkert/lazy-cache
-[browserify]: https://github.com/substack/node-browserify
 [limon]: https://github.com/limonjs/limon
 
 [npmjs-url]: https://www.npmjs.com/package/lazy-utils
@@ -139,4 +150,3 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [new-message-url]: https://github.com/tunnckoCore/ama
 [new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
-

@@ -1,7 +1,7 @@
 {
   "name": "lazy-utils",
   "version": "1.0.0",
-  "description": "Most of the used mostly everywhere utils: [extend-shallow][], [isobject][], [is-extendable][] (used in extend-shallow), [isarray][] and arrayify (using [lazy-arrayify][] package), all of them [lazy-cache][]d.",
+  "description": "Most used utils, almost everywhere - [lazy-cache][]d. Including simple arrayify, [isobject][], [isarray][], [is-buffer][], [is-extendable][] and [extend-shallow][].",
   "repository": "tunnckoCore/lazy-utils",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "precommit.silent": true,
@@ -62,28 +62,29 @@
     ],
     "related": {
       "list": [
+        "ansi-colors",
         "extend-shallow",
-        "limon",
-        "limon-prev-next",
-        "postjson",
+        "is-extendable",
         "isarray",
         "isobject",
-        "is-extendable",
         "lazy-arrayify",
         "lazy-chalk",
         "lazy-globby",
-        "ansi-colors"
+        "limon",
+        "limon-prev-next",
+        "postjson"
       ]
     },
     "reflinks": [
+      "browserify",
       "extend-shallow",
-      "isobject",
       "is-extendable",
       "isarray",
+      "isobject",
       "lazy-arrayify",
       "lazy-cache",
-      "browserify",
-      "limon"
+      "limon",
+      "is-buffer"
     ],
     "lint": {
       "reflinks": true
