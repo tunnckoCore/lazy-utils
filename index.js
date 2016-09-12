@@ -25,7 +25,7 @@ var utils = require('lazy-cache')(require)
  */
 
 var fn = require
-require = utils // eslint-disable-line no-undef, no-native-reassign
+require = utils // eslint-disable-line no-undef, no-native-reassign, no-global-assign
 
 /**
  * Lazily required module dependencies
@@ -103,10 +103,25 @@ require('is-buffer')
 require('lazy-arrayify/arrayify', 'arrayify')
 
 /**
+ * > Deeply mix the properties of objects into the first object.
+ * Like merge-deep, but doesn't clone.
+ * See [mixin-deep][] for more.
+ *
+ * @name .merge
+ * @param {Mixed} `a`
+ * @param {Mixed} `b`
+ * @param {Mixed} `c`
+ * @return {Object}
+ * @api public
+ */
+
+require('mixin-deep', 'merge')
+
+/**
  * Restore `require`
  */
 
-require = fn // eslint-disable-line no-undef, no-native-reassign
+require = fn // eslint-disable-line no-undef, no-native-reassign, no-global-assign
 
 /**
  * Expose `utils` modules
