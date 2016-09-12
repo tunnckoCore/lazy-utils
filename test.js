@@ -7,7 +7,7 @@
 
 'use strict'
 
-var test = require('assertit')
+var test = require('mukla')
 var utils = require('./index')
 
 test('should expose `.isArray`, `isBuffer`, `isObject`', function (done) {
