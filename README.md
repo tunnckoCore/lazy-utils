@@ -75,18 +75,31 @@ See [lazy-arrayify][] for more.
 * `val` **{Mixed}**    
 * `returns` **{Array}**  
 
+### [.merge](index.js#L118)
+
+> Deeply mix the properties of objects into the first object.
+Like merge-deep, but doesn't clone.
+See [mixin-deep][] for more.
+
+**Params**
+
+* `a` **{Mixed}**    
+* `b` **{Mixed}**    
+* `c` **{Mixed}**    
+* `returns` **{Object}**  
+
 ## Related
-* [ansi-colors](https://www.npmjs.com/package/ansi-colors): Collection of ansi colors and styles. | [homepage](https://github.com/doowb/ansi-colors)
-* [extend-shallow](https://www.npmjs.com/package/extend-shallow): Extend an object with the properties of additional objects. node.js/javascript util. | [homepage](https://github.com/jonschlinkert/extend-shallow)
-* [is-extendable](https://www.npmjs.com/package/is-extendable): Returns true if a value is any of the object types: array,… [more](https://www.npmjs.com/package/is-extendable) | [homepage](https://github.com/jonschlinkert/is-extendable)
-* [isarray](https://www.npmjs.com/package/isarray): Array#isArray for older browsers | [homepage](https://github.com/juliangruber/isarray)
-* [isobject](https://www.npmjs.com/package/isobject): Returns true if the value is an object and not an array… [more](https://www.npmjs.com/package/isobject) | [homepage](https://github.com/jonschlinkert/isobject)
-* [lazy-arrayify](https://www.npmjs.com/package/lazy-arrayify): We are lazy, also [lazy-cache][]d and [browserify][]-ready - just arrayify, falsey values… [more](https://www.npmjs.com/package/lazy-arrayify) | [homepage](https://github.com/tunnckocore/lazy-arrayify)
-* [lazy-chalk](https://www.npmjs.com/package/lazy-chalk): Lazily load chalk, since it takes so long to load. | [homepage](https://github.com/jonschlinkert/lazy-chalk)
-* [lazy-globby](https://www.npmjs.com/package/lazy-globby): Lazily require globby, since it takes so long to load (because of… [more](https://www.npmjs.com/package/lazy-globby) | [homepage](https://github.com/jonschlinkert/lazy-globby)
-* [limon-prev-next](https://www.npmjs.com/package/limon-prev-next): Plugin for [limon][] pluggable lexer that adds `prev` and `next` methods. | [homepage](https://github.com/limonjs/limon-prev-next)
-* [limon](https://www.npmjs.com/package/limon): The pluggable JavaScript lexer on per character basis. | [homepage](https://github.com/limonjs/limon)
-* [postjson](https://www.npmjs.com/package/postjson): Transforming JSON with plugins. | [homepage](https://github.com/postjson/postjson)
+- [ansi-colors](https://www.npmjs.com/package/ansi-colors): Collection of ansi colors and styles. | [homepage](https://github.com/doowb/ansi-colors "Collection of ansi colors and styles.")
+- [extend-shallow](https://www.npmjs.com/package/extend-shallow): Extend an object with the properties of additional objects. node.js/javascript util. | [homepage](https://github.com/jonschlinkert/extend-shallow "Extend an object with the properties of additional objects. node.js/javascript util.")
+- [is-extendable](https://www.npmjs.com/package/is-extendable): Returns true if a value is any of the object types: array… [more](https://github.com/jonschlinkert/is-extendable) | [homepage](https://github.com/jonschlinkert/is-extendable "Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended, e.g. "can the value have keys?"")
+- [isarray](https://www.npmjs.com/package/isarray): Array#isArray for older browsers | [homepage](https://github.com/juliangruber/isarray "Array#isArray for older browsers")
+- [isobject](https://www.npmjs.com/package/isobject): Returns true if the value is an object and not an array… [more](https://github.com/jonschlinkert/isobject) | [homepage](https://github.com/jonschlinkert/isobject "Returns true if the value is an object and not an array or null.")
+- [lazy-arrayify](https://www.npmjs.com/package/lazy-arrayify): We are lazy, also [lazy-cache][]d and [browserify][]-ready - just arrayify, falsey values… [more](https://github.com/tunnckocore/lazy-arrayify#readme) | [homepage](https://github.com/tunnckocore/lazy-arrayify#readme "We are lazy, also [lazy-cache][]d and [browserify][]-ready - just arrayify, falsey values returns empty array. In bonus with `.isArray` method.")
+- [lazy-chalk](https://www.npmjs.com/package/lazy-chalk): Lazily load chalk, since it takes so long to load. | [homepage](https://github.com/jonschlinkert/lazy-chalk "Lazily load chalk, since it takes so long to load.")
+- [lazy-globby](https://www.npmjs.com/package/lazy-globby): Lazily require globby, since it takes so long to load (because of… [more](https://github.com/jonschlinkert/lazy-globby) | [homepage](https://github.com/jonschlinkert/lazy-globby "Lazily require globby, since it takes so long to load (because of glob).")
+- [limon-prev-next](https://www.npmjs.com/package/limon-prev-next): Plugin for [limon][] pluggable lexer that adds `prev` and `next` methods. | [homepage](https://github.com/limonjs/limon-prev-next#readme "Plugin for [limon][] pluggable lexer that adds `prev` and `next` methods.")
+- [limon](https://www.npmjs.com/package/limon): The pluggable JavaScript lexer. Limon = Lemon. | [homepage](https://github.com/limonjs/limon#readme "The pluggable JavaScript lexer. Limon = Lemon.")
+- [postjson](https://www.npmjs.com/package/postjson): Transforming JSON with plugins. | [homepage](https://github.com/postjson/postjson#readme "Transforming JSON with plugins.")
 
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/lazy-utils/issues/new).  
@@ -150,3 +163,5 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [new-message-url]: https://github.com/tunnckoCore/ama
 [new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
+
+[mixin-deep]: https://github.com/jonschlinkert/mixin-deep
