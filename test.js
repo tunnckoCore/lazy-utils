@@ -10,16 +10,13 @@
 var test = require('mukla')
 var utils = require('./index')
 
-test('should expose `.isArray`, `isBuffer`, `isObject`', function (done) {
+test('should expose 7 methods', function (done) {
   test.strictEqual(typeof utils.isArray, 'function')
   test.strictEqual(typeof utils.isBuffer, 'function')
   test.strictEqual(typeof utils.isObject, 'function')
-  done()
-})
-
-test('should expose `.extend`, `arrayify` and `isExtendable`', function (done) {
   test.strictEqual(typeof utils.extend, 'function')
   test.strictEqual(typeof utils.arrayify, 'function')
   test.strictEqual(typeof utils.isExtendable, 'function')
+  test.strictEqual(typeof utils.merge, 'function')
   done()
 })
