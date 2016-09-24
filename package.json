@@ -15,7 +15,7 @@
     "is-array": "^1.0.1",
     "is-buffer": "^1.1.4",
     "is-extendable": "^0.1.1",
-    "isarray": "^1.0.0",
+    "isarray": "^2.0.0",
     "isobject": "^2.1.0",
     "lazy-arrayify": "^1.0.3",
     "lazy-cache": "^2.0.1",
